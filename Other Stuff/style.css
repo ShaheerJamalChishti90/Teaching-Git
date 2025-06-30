@@ -1,0 +1,26 @@
+button { 
+    font-size: 75px;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    background-color: red;
+}
+
+
+/* # agar kisi non visited link ka color change karna ho tou ye likhein */
+a:link {
+  color: green;
+}
+
+
+/* # agar kisi visited link ka color change karna ho tou ye likhein */
+a:visited {
+    color: aqua;
+}
